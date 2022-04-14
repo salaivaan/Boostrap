@@ -1,7 +1,6 @@
-.ancho {
-    width: 50%;
-}
 
 body{ background-image: url(https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/274593870_452494399956565_5069217846133669501_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=a26aad&_nc_ohc=uUcSgCwh2SQAX9gzSaD&_nc_ht=scontent.faep9-2.fna&oh=00_AT-hX331k_4ZfPkNe27a3rmC3Eijts18jcWEsj5o7SinkQ&oe=625D13FD);
-background-size: 95%;
-background-repeat: no-repeat;}
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;}
+
