@@ -1,14 +1,22 @@
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 10%;
   border-style: inset;
   border-width: 0.5rem;
   grid-area: header;
+  -webkit-transition: all 2s;
   transition: all 2s;
 }
+
 .logo:hover {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 body {
@@ -17,21 +25,29 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 body h1 {
   color: lavender;
 }
+
 body footer .redes {
   font-style: oblique;
   color: lavenderblush;
   border-radius: 1.5625rem;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transition: all 1s;
   transition: all 1s;
 }
+
 body footer .redes:hover {
-  transform: scale(1.2);
-  animation: change 3s ease-in;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-animation: change 3s ease-in;
+          animation: change 3s ease-in;
 }
-@keyframes change {
+
+@-webkit-keyframes change {
   25% {
     opacity: 75%;
     border-style: dashed;
@@ -45,4 +61,17 @@ body footer .redes:hover {
   }
 }
 
+@keyframes change {
+  25% {
+    opacity: 75%;
+    border-style: dashed;
+    border-color: darkgoldenrod;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 25%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
