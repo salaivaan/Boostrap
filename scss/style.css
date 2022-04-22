@@ -9,7 +9,6 @@
   width: 10%;
   border-style: inset;
   border-width: 0.5rem;
-  grid-area: header;
   -webkit-transition: all 2s;
   transition: all 2s;
 }
