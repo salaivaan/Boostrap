@@ -1,10 +1,8 @@
 .logo {
   display: flex;
   flex-direction: row;
-  width: 10%;
   border-style: inset;
   border-width: 0.5rem;
-  grid-area: header;
   transition: all 2s;
 }
 .logo:hover {
@@ -15,19 +13,25 @@ body {
   background-image: url(https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/274593870_452494399956565_5069217846133669501_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=a26aad&_nc_ohc=c4Noy5iUNa0AX86eg4S&_nc_ht=scontent.faep9-2.fna&oh=00_AT8dN4Fitpcb_Tyejxar_4MDS6Xoz4DDoJREmacSUXXZRw&oe=6264FCFD);
   background-size: 85%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: justify;
+  background-color: blueviolet;
 }
-body h1 {
+
+header h1 {
   color: lavender;
 }
-body footer .redes {
+header nav .contenedor {
+  background-color: black;
+}
+
+footer .redes {
   font-style: oblique;
   color: lavenderblush;
   border-radius: 1.5625rem;
   flex-wrap: wrap;
   transition: all 1s;
 }
-body footer .redes:hover {
+footer .redes:hover {
   transform: scale(1.2);
   animation: change 3s ease-in;
 }
