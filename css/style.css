@@ -77,9 +77,15 @@ footer .redes:hover {
     height: 50%;
     width: 50%;
     border: 0.25rem;
-    border-style: double;
+    border-style: inset;
     border-color: darkmagenta;
     background-color: black;
+    margin-left: 3rem;
+  }
+  body section .fotos {
+    display: grid;
+    grid-template-columns: max-content;
+    width: 20%;
   }
   body footer div {
     display: flex;

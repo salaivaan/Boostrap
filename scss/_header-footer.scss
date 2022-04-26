@@ -71,14 +71,15 @@ footer {
 @media screen and (max-width:640px)and(min-width:0px) {
     body {
         background-color: black;
-        background-image: linear-gradient(darkviolet, black );
+        background-image: linear-gradient(darkviolet, black);
 
         nav {
             display: flex;
             flex-direction: column;
             background-color: darkgray;
-        
-            background-image: linear-gradient(black, darkviolet );
+
+            background-image: linear-gradient(black, darkviolet);
+
             div {
                 background-color: goldenrod;
                 width: 100%;
@@ -110,9 +111,18 @@ footer {
             height: 50%;
             width: 50%;
             border: 0.25rem;
-            border-style: double;
+            border-style: inset;
             border-color: darkmagenta;
             background-color: black;
+            margin-left: 3rem;
+        
+
+            .fotos {
+                display: grid;
+                grid-template-columns: max-content;
+                
+                width: 20%;
+            }
         }
 
         footer {
