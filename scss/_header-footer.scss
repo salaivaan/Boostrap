@@ -77,7 +77,8 @@ footer {
             display: flex;
             flex-direction: column;
             background-color: darkgray;
-
+        
+            background-image: linear-gradient(black, darkviolet );
             div {
                 background-color: goldenrod;
                 width: 100%;
@@ -110,7 +111,8 @@ footer {
             width: 50%;
             border: 0.25rem;
             border-style: double;
-            background-color: gold;
+            border-color: darkmagenta;
+            background-color: black;
         }
 
         footer {
