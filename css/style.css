@@ -40,6 +40,53 @@ footer .redes:hover {
   }
 }
 
+@media screen and (max-width: 640px) and (min-width: 0px) {
+  body {
+    background-color: black;
+    background-image: linear-gradient(darkviolet, black);
+  }
+  body nav {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+  }
+  body nav div {
+    background-color: goldenrod;
+    width: 100%;
+    border-style: inset;
+  }
+  body nav div a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  body nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  body nav ul li {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border: 0.25rem;
+    border-style: inset;
+    width: 100%;
+  }
+  body section {
+    height: 50%;
+    width: 50%;
+    border: 0.25rem;
+    border-style: double;
+    background-color: gold;
+  }
+  body footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+  }
+}
 section p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;

@@ -18,9 +18,8 @@ body {
 
 
     nav {
-        .contenedor{
-        background-color: none
-        
+        .contenedor {
+            background-color: none
         }
     }
 }
@@ -66,5 +65,64 @@ footer {
 
 
         }
+    }
+}
+
+@media screen and (max-width:640px)and(min-width:0px) {
+    body {
+        background-color: black;
+        background-image: linear-gradient(darkviolet, black );
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            background-color: darkgray;
+
+            div {
+                background-color: goldenrod;
+                width: 100%;
+                border-style: inset;
+
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    background-color: black;
+                    border: 0.25rem;
+                    border-style: inset;
+                    width: 100%;
+                }
+            }
+        }
+
+        section {
+            height: 50%;
+            width: 50%;
+            border: 0.25rem;
+            border-style: double;
+            background-color: gold;
+        }
+
+        footer {
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 50%;
+                height: 50%;
+            }
+
+        }
+
     }
 }
