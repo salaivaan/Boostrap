@@ -2,12 +2,24 @@ section {
     p {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: italic;
-        color: gold;
+        color: lavenderblush;
+        margin-bottom: 3rem;
     }
-    div {
 
-        width: 50%;
-        height : 50%;
-    }
 }
 
+section {
+    .img {
+        width: 50%;
+        height: 50%;
+        border-radius: 10%;
+        transition: all 1.5s;
+        padding: 1rem;
+
+        &:hover {
+            transform: scale(1.1);
+            
+        }
+    }
+
+}

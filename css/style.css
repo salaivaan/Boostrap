@@ -15,11 +15,6 @@ body nav .contenedor {
   background-color: none;
 }
 
-.img {
-  width: 300px;
-  height: 300px;
-}
-
 footer .redes {
   font-style: oblique;
   color: lavenderblush;
@@ -48,11 +43,19 @@ footer .redes:hover {
 section p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  color: gold;
+  color: lavenderblush;
+  margin-bottom: 3rem;
 }
-section div {
+
+section .img {
   width: 50%;
   height: 50%;
+  border-radius: 10%;
+  transition: all 1.5s;
+  padding: 1rem;
+}
+section .img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
