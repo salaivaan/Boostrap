@@ -71,7 +71,7 @@ footer {
 @media screen and (max-width:640px)and(min-width:0px) {
     body {
         background-color: black;
-        background-image: linear-gradient(darkviolet, black );
+        background-image: linear-gradient(darkviolet, black);
 
         nav {
             display: flex;
@@ -79,7 +79,7 @@ footer {
             background-color: darkgray;
 
             div {
-                background-color: goldenrod;
+                background-color: silver;
                 width: 100%;
                 border-style: inset;
 
@@ -110,7 +110,13 @@ footer {
             width: 50%;
             border: 0.25rem;
             border-style: double;
-            background-color: gold;
+            background-color: silver;
+
+            p video {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
         }
 
         footer {

@@ -51,7 +51,7 @@ footer .redes:hover {
     background-color: darkgray;
   }
   body nav div {
-    background-color: goldenrod;
+    background-color: silver;
     width: 100%;
     border-style: inset;
   }
@@ -77,7 +77,12 @@ footer .redes:hover {
     width: 50%;
     border: 0.25rem;
     border-style: double;
-    background-color: gold;
+    background-color: silver;
+  }
+  body section p video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   body footer div {
     display: flex;
