@@ -1,8 +1,13 @@
+@import "../base/mapas";
+@import "../base/extend";
+@import "../base/mixin";
+
 .logo {
 
     transition: all 2s;
 
     &:hover {
+
         transform: rotate(360deg);
     }
 }
@@ -19,7 +24,9 @@ body {
 
     nav {
         .contenedor {
-            background-color: none
+            background-color: none;
+            @extend %texto
+            
         }
     }
 }
@@ -36,7 +43,7 @@ footer {
         transition: all 1s;
 
         &:hover {
-            transform: scale(1.2);
+            @include escala ((1.2));
             animation: change 3s ease-in;
         }
 
@@ -47,7 +54,7 @@ footer {
             25% {
                 opacity: 75%;
                 border-style: dashed;
-                border-color: darkgoldenrod;
+                border-color: silver;
 
 
             }

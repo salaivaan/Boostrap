@@ -1,24 +1,25 @@
+@import "../base/mapas";
+@import "../base/extend";
+@import "../base/mixin";
+
 section {
     p {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style: italic;
-        color: lavenderblush;
-        margin-bottom: 3rem;
+@extend %texto
     }
 
 }
 
 section {
     .img {
-        width: 50%;
-        height: 50%;
-        border-radius: 10%;
-        transition: all 1.5s;
-        padding: 1rem;
-
+        width: map-get($map: $imagenes, $key: width);
+        height: map-get($map: $imagenes, $key: height);
+        border-radius: map-get($map: $imagenes, $key: border-radius);
+        transition: map-get($map:$imagenes , $key: transition);
+        padding:map-get($map: $imagenes, $key: padding);
+        
         &:hover {
-            transform: scale(1.1);
             
+            @include escala ((1.1))
         }
     }
 

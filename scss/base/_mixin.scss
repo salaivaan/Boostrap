@@ -1,0 +1,5 @@
+@mixin escala($valor) {
+    
+    transform: scale($valor);
+
+}
