@@ -14,7 +14,7 @@ section p, body nav .contenedor {
 }
 
 body {
-  background-image: url(https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/274593870_452494399956565_5069217846133669501_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=a26aad&_nc_ohc=YQHVtI4OHP8AX_KL9Xg&_nc_ht=scontent.faep9-2.fna&oh=00_AT_aIGHi8STS4TKH8lBd1cS5ia9Ptmq1rWd8xlk2ejNCYQ&oe=626CE5FD);
+  background-image: url(https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/274593870_452494399956565_5069217846133669501_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=a26aad&_nc_eui2=AeHhyvD3R6-Y6mav4uGXWPO8qPtQMe6Vopio-1Ax7pWimKMiWguzCu-Pn9TAZ3W-hh4&_nc_ohc=GUczRrNaRFgAX-jlY2x&_nc_oc=AQlB3IZg4zJNPHPOjNmDghyXB_u8oQ-PRBmdqOAChsQpOJUsEEDSVvD-KSP0vfVq3Mo&_nc_ht=scontent.faep9-2.fna&oh=00_AT8WcthodlM5c1hNnr7bofjVsk-iQLo83IFKhOn88XWW5g&oe=6276C93D);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -59,9 +59,9 @@ footer .redes:hover {
     background-color: darkgray;
   }
   body nav div {
-    background-color: silver;
+    background-color: darkgray;
     width: 100%;
-    border-style: inset;
+    border-style: hidden;
   }
   body nav div a {
     display: flex;
@@ -82,15 +82,16 @@ footer .redes:hover {
   }
   body section {
     height: 50%;
-    width: 50%;
+    width: 100%;
     border: 0.25rem;
-    border-style: double;
+    border-style: hidden;
     background-color: silver;
   }
-  body section p video {
+  body section p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: black;
   }
   body footer div {
     display: flex;
